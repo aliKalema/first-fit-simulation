@@ -17,6 +17,7 @@ void printArray(){
      for (int i = 0; i < 10; i++){
       printf("%d, ", memoryArray[i]);
     }
+    printf("\n");
 }
 
 void create(){
