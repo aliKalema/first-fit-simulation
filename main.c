@@ -41,7 +41,7 @@ void delete(){
     int processToDelete;
     printf("DELETION\nEnter Process to Delete\n");
     scanf("%d", &processToDelete);
-    memoryArray[processToDelete-1]==0;
+    memoryArray[processToDelete-1]=0;
     printArray();
 }
 
