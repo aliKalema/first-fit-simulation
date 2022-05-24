@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-int select = 1;
+int selecty = 1;
 int option;
 int memoryArray[10] = {0,0,0,0,0,0,0,0,0,0};
 int count = 1;
@@ -48,11 +48,11 @@ void delete(){
 
 void exitProgram(){
     printf("EXIT\n");
-    select= 0;
+    selecty= 0;
 }
 
 int main(){
-    while(select == 1){
+    while(selecty == 1){
         printf("SELECT OPTION\n  [CREATE : 1] [DELETE : 2] [EXIT : 0]\n");  
         scanf("%d", &option);
         switch (option){
